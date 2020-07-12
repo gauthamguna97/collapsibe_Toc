@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+  line-height: 20px;
+}
+
+body { background-color: #2f3542;}
+
+.wrapper { width: 100%; height: 100%; padding-top: 10vh; background-color: #2f3542;}
+
+.listwrapper {min-width: 300px; border-radius: 4px; max-width: 750px; background: white; margin: 0 20%; }
+.listitem { display: block; width: 100%; border-bottom: 1px solid #2f3542; border-radius: 4px;}
+.listint:hover { background-color: #e6ffe6;}
+.listint { display: table; width: 100%; color: rgb(74, 74, 74); height: 8vh;  padding: 12px 5px;  cursor: pointer; }
+.svgwrap { width: 30px; display: table-cell; padding-left: 5px; vertical-align: middle;}
+.svgwrap img { width: 20px; height: 20px;}
+.titlewrap {font-size: 18px; display: table-cell; font-weight: 600; vertical-align: middle;}
+.statuswrap {font-size: 12px; display: table-cell; font-weight: 400; vertical-align: middle; width: 20%; text-align: center;}
+.cstatus {width: 90%; background-color: white; border: 1px solid #20bf6b; height: 10px;}
+.pstatus {width: 90%; background-color: white; border: 1px solid deepskyblue; height: 10px;}
+.complp {background-color: #20bf6b; height: 100%;}
+.complpp {background-color: deepskyblue; height: 100%;}
+
+.sublistwrapper { display: block; max-width: 550px; min-width: 300px; padding: 0px 17px; background-color: white; max-height: 0; overflow: hidden; transition: max-height 0.25s ease-out; }
+.sublistint { display: table; width: 100%; margin-left: -15px;}
+.sublistitem { display: block; width: 100%; border-left: 1px solid black; min-height: 30px; padding: 5px 0;}
+.subsvgwrap { width: 30px; height: 30px; display: table-cell; border-radius: 50%; padding: 5px; vertical-align: middle;}
+.subsvgwrap img { width: 100%; height: 100%; background: white;}
+.subtitlewrap { font-size: 16px; display: table-cell;text-align: left; vertical-align: middle;}
+
+@media only screen and (max-width: 700px) {
+  .titlewrap {font-size: 16px;}
+  .subtitlewrap { font-size: 14px;}
+  .listwrapper { margin: 0 10% }
+}
+
+@media only screen and (max-width: 450px) {
+  .titlewrap {font-size: 16px;}
+  .subtitlewrap { font-size: 14px;}
+  .listwrapper { margin: 0}
+}
