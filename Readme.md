@@ -1,6 +1,4 @@
-# TOC (Table of Content) Assignment
-
-To start with the assignment, make sure you have the latest version of node.js. Install it from [here][nodejs]. After installing open the folder in a terminal / command prompt and issue the following commands to get started:
+Basic Javascript, css and html
 
   ```sh
   $ cd collapsibe_Toc
